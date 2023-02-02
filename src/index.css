@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=PT+Serif&family=Work+Sans&display=swap");
+body,
+html {
+  background: #dfeef6;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 10px;
+}
+
+* {
+  font-family: Arvo, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
