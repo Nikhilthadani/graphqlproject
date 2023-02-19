@@ -10,7 +10,7 @@ app.use(cors());
 app.use("/graphql", graphqlHTTP({ schema: schema, graphiql: true }));
 connectToDatabase()
     .then(() => {
-    app.listen(5000, () => console.log("Database Connected\nServer Listening on 5000"));
+    app.listen(4000, () => console.log("Database Connected\nServer Listening on 5000"));
 })
     .catch((err) => console.error(err));
 //# sourceMappingURL=app.js.map

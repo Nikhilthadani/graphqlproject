@@ -11,7 +11,7 @@ app.use("/graphql", graphqlHTTP({ schema: schema, graphiql: true }));
 
 connectToDatabase()
   .then(() => {
-    app.listen(5000, () =>
+    app.listen(4000, () =>
       console.log("Database Connected\nServer Listening on 5000")
     );
   })
